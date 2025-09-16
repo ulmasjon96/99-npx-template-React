@@ -65,7 +65,7 @@ Minimal React starter template created with **Create React App**. Bu loyiha tezd
 
 ```bash
 # reponi klonlash
-git clone https://github.com/username/99-npx-template-React.git
+git clone https://github.com/ulmasjon96/99-npx-template-React.git
 cd 99-npx-template-React
 
 # node modullarini o'rnatish
@@ -101,16 +101,14 @@ npm run eject
 ```
 99-npx-template-React/
 ├── public/            # index.html va boshqa statik fayllar
+│   └── index.js
 ├── src/               # asosiy manba kod
-│   ├── assets/        # rasmlar, shriftlar, ikonlar
-│   ├── components/    # qayta ishlatiladigan UI komponentlar
-│   ├── pages/         # sahifa komponentlari
-│   ├── hooks/         # custom hooks
-│   ├── services/      # API chaqiriqlari va util funksiyalar
-│   ├── styles/        # global va modul CSS/SCSS
-│   ├── App.js
+│   ├── App.css/
+│   ├── App.js/
+│   ├── index.css/
 │   └── index.js
 ├── .gitignore
+├── package-lock.json
 ├── package.json
 └── README.md
 ```
