@@ -142,12 +142,12 @@ Quyida loyihada ishlatishingiz mumkin bo‘lgan juda oddiy `App.js` misoli:
 
 ```js
 // src/App.js
-import React from 'react';
-import './styles/global.css';
+import './App.css';
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
+
     </div>
   );
 }
@@ -160,47 +160,18 @@ export default App;
 ```js
 // src/index.js
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
+import './index.css';
 import App from './App';
 
-const container = document.getElementById('root');
-const root = createRoot(container);
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
+
 ```
-
-`global.css` misoli (`src/styles/global.css`):
-
-```css
-/* src/styles/global.css */
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #f7f7f8;
-  color: #111827;
-}
-
-.app {
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
-.app-header {
-  text-align: center;
-  padding: 2rem;
-  border-radius: 12px;
-  background: white;
-  box-shadow: 0 6px 20px rgba(17,24,39,0.06);
-}
-```
-
 ---
 
 ## 🔑 Environment variables / Muhit o'zgaruvchilari
