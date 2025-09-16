@@ -1,4 +1,4 @@
-# 🚀 99-npx-template-React
+# 🚀 npx-template-React
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]() [![npm version](https://img.shields.io/badge/npm-v%20--/blue.svg)]()
 
@@ -8,7 +8,7 @@ Minimal React starter template created with **Create React App**. Bu loyiha tezd
 
 ## 📖 About / Loyihaning qisqacha tavsifi
 
-`99-npx-template-React` — Create React App yordamida yaratilgan minimal template. Maqsad: yangi loyihalarni tez boshlash uchun toza va tushunarli tuzilma hamda yo‘l-yo‘riq taqdim etish.
+`npx-template-React` — Create React App yordamida yaratilgan minimal template. Maqsad: yangi loyihalarni tez boshlash uchun toza va tushunarli tuzilma hamda yo‘l-yo‘riq taqdim etish.
 
 ---
 
@@ -17,7 +17,7 @@ Minimal React starter template created with **Create React App**. Bu loyiha tezd
 ```bash
 # reponi klonlash
 git clone https://github.com/ulmasjon96/99-npx-template-React.git
-cd 99-npx-template-React
+cd npx-template-React
 
 # node modullarini o'rnatish
 npm install
@@ -76,7 +76,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## 📂 Project structure / Fayl tuzilishi
 
 ```
-99-npx-template-React/
+npx-template-React/
 ├── public/            # index.html va boshqa statik fayllar
 │   └── index.js
 ├── src/               # asosiy manba kod
