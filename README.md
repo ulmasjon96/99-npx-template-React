@@ -1,52 +1,3 @@
-# 99-npx-template-React
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
 # 🚀 99-npx-template-React
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]() [![npm version](https://img.shields.io/badge/npm-v%20--/blue.svg)]()
@@ -82,14 +33,40 @@ npm install
 # rivojlantirish serverini ishga tushirish
 npm start
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+
 # testlarni ishga tushirish
 npm test
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 # production build yaratish
 npm run build
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
 # (ehtiyotkorlik bilan) konfiguratsiyani e'lon qilish
 npm run eject
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 ```
 
 `npm start` ishga tushganda brauzeringizda [http://localhost:3000](http://localhost:3000) ochiladi. Kodda o'zgartirishlar qilganingizda sahifa avtomatik qayta yuklanadi.
@@ -119,20 +96,20 @@ npm run eject
 
 ## 🛠 Features / Funksiyalar
 
-* ⚡ Create React App asosida tez ishga tushirish
-* 🎨 Minimal va toza fayl struktura
-* 🔧 ESLint va Prettier qo'shish uchun tayyor (agar siz integratsiya qilsangiz)
-* 📱 Responsiv dizayn uchun tayyor joy
-* 🚀 Production build optimallashtirilgan
+- ⚡ Create React App asosida tez ishga tushirish
+- 🎨 Minimal va toza fayl struktura
+- 🔧 ESLint va Prettier qo'shish uchun tayyor (agar siz integratsiya qilsangiz)
+- 📱 Responsiv dizayn uchun tayyor joy
+- 🚀 Production build optimallashtirilgan
 
 ---
 
 ## 🧰 Technologies / Texnologiyalar
 
-* React
-* JavaScript (ES6+)
-* Node.js
-* npm (yoki yarn)
+- React
+- JavaScript (ES6+)
+- Node.js
+- npm (yoki yarn)
 
 ---
 
@@ -145,11 +122,7 @@ Quyida loyihada ishlatishingiz mumkin bo‘lgan juda oddiy `App.js` misoli:
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-
-    </div>
-  );
+	return <div className='App'></div>;
 }
 
 export default App;
@@ -166,12 +139,12 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
 );
-
 ```
+
 ---
 
 ## 🔑 Environment variables / Muhit o'zgaruvchilari
@@ -216,10 +189,10 @@ Muammolarni `Issues` bo'limida oching — iloji boricha batafsil tavsif va repro
 
 ## 📌 To-Do / Kelajak rejalar
 
-* [ ] Routing qo'shish (React Router)
-* [ ] State management (Context API yoki Redux Toolkit)
-* [ ] Unit va integration testlar (Jest + React Testing Library)
-* [ ] UI kit yoki Tailwind integratsiyasi
+- [ ] Routing qo'shish (React Router)
+- [ ] State management (Context API yoki Redux Toolkit)
+- [ ] Unit va integration testlar (Jest + React Testing Library)
+- [ ] UI kit yoki Tailwind integratsiyasi
 
 ---
 
@@ -236,3 +209,9 @@ Agar savollar bo'lsa: `yourname@example.com` yoki GitHub profil orqali murojaat 
 ---
 
 > Agar xohlasangiz, men README faylini: badge'lar bilan to'ldirib, `LICENSE` va `CODE_OF_CONDUCT` fayllarini ham yaratib beraman. Shuningdek, agar sizga to'liq React loyiha fayllari (src, public) kerak bo'lsa, men ularni ham tayyorlab bera olaman — qaysi variantni xohlaysiz?
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
