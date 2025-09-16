@@ -16,7 +16,7 @@ Minimal React starter template created with **Create React App**. Bu loyiha tezd
 
 ```bash
 # reponi klonlash
-git clone https://github.com/ulmasjon96/99-npx-template-React.git
+git clone https://github.com/ulmasjon96/npx-template-React.git
 cd npx-template-React
 
 # node modullarini o'rnatish
